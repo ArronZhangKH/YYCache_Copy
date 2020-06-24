@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11B3A73A0C936F230A983A15 /* libPods-YYCache_Copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E99442141F5E1FCEF8851006 /* libPods-YYCache_Copy.a */; };
 		933809C2249A1D29003A8D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 933809C1249A1D29003A8D63 /* AppDelegate.m */; };
 		933809C5249A1D29003A8D63 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 933809C4249A1D29003A8D63 /* SceneDelegate.m */; };
 		933809C8249A1D29003A8D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933809C7249A1D29003A8D63 /* ViewController.m */; };
@@ -16,6 +17,12 @@
 		933809D3249A1D2C003A8D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933809D2249A1D2C003A8D63 /* main.m */; };
 		933809DD249A1D2C003A8D63 /* YYCache_CopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933809DC249A1D2C003A8D63 /* YYCache_CopyTests.m */; };
 		933809E8249A1D2C003A8D63 /* YYCache_CopyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933809E7249A1D2C003A8D63 /* YYCache_CopyUITests.m */; };
+		93434B0224A3282C007445C5 /* KKCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0124A3282C007445C5 /* KKCache.m */; };
+		93434B0524A32835007445C5 /* KKDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0424A32835007445C5 /* KKDiskCache.m */; };
+		93434B0824A32841007445C5 /* KKKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0724A32841007445C5 /* KKKVStorage.m */; };
+		93434B0B24A32848007445C5 /* KKMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0A24A32848007445C5 /* KKMemoryCache.m */; };
+		93434B1524A3290D007445C5 /* KKCache.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93434B1224A3290D007445C5 /* KKCache.xcconfig */; };
+		93434B1624A3290D007445C5 /* KKCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B1324A3290D007445C5 /* KKCache-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		725E26704AF5D3FEBB7C985D /* Pods-YYCache_Copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCache_Copy.release.xcconfig"; path = "Target Support Files/Pods-YYCache_Copy/Pods-YYCache_Copy.release.xcconfig"; sourceTree = "<group>"; };
 		933809BD249A1D29003A8D63 /* YYCache_Copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCache_Copy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933809C0249A1D29003A8D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		933809C1249A1D29003A8D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,19 @@
 		933809E3249A1D2C003A8D63 /* YYCache_CopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYCache_CopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		933809E7249A1D2C003A8D63 /* YYCache_CopyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCache_CopyUITests.m; sourceTree = "<group>"; };
 		933809E9249A1D2C003A8D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93434B0024A3282C007445C5 /* KKCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKCache.h; sourceTree = "<group>"; };
+		93434B0124A3282C007445C5 /* KKCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKCache.m; sourceTree = "<group>"; };
+		93434B0324A32835007445C5 /* KKDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDiskCache.h; sourceTree = "<group>"; };
+		93434B0424A32835007445C5 /* KKDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDiskCache.m; sourceTree = "<group>"; };
+		93434B0624A32841007445C5 /* KKKVStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKKVStorage.h; sourceTree = "<group>"; };
+		93434B0724A32841007445C5 /* KKKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKKVStorage.m; sourceTree = "<group>"; };
+		93434B0924A32848007445C5 /* KKMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKMemoryCache.h; sourceTree = "<group>"; };
+		93434B0A24A32848007445C5 /* KKMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKMemoryCache.m; sourceTree = "<group>"; };
+		93434B1224A3290D007445C5 /* KKCache.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = KKCache.xcconfig; sourceTree = "<group>"; };
+		93434B1324A3290D007445C5 /* KKCache-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KKCache-dummy.m"; sourceTree = "<group>"; };
+		93434B1424A3290D007445C5 /* KKCache-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKCache-prefix.pch"; sourceTree = "<group>"; };
+		9A1A69C185BC23BED86CF89F /* Pods-YYCache_Copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCache_Copy.debug.xcconfig"; path = "Target Support Files/Pods-YYCache_Copy/Pods-YYCache_Copy.debug.xcconfig"; sourceTree = "<group>"; };
+		E99442141F5E1FCEF8851006 /* libPods-YYCache_Copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYCache_Copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B3A73A0C936F230A983A15 /* libPods-YYCache_Copy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +110,8 @@
 				933809DB249A1D2C003A8D63 /* YYCache_CopyTests */,
 				933809E6249A1D2C003A8D63 /* YYCache_CopyUITests */,
 				933809BE249A1D29003A8D63 /* Products */,
+				CBDE9632F67B7AA4A81E647E /* Pods */,
+				FA007C8BFA753D007C32F8E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +128,9 @@
 		933809BF249A1D29003A8D63 /* YYCache_Copy */ = {
 			isa = PBXGroup;
 			children = (
-				933809C0249A1D29003A8D63 /* AppDelegate.h */,
-				933809C1249A1D29003A8D63 /* AppDelegate.m */,
-				933809C3249A1D29003A8D63 /* SceneDelegate.h */,
-				933809C4249A1D29003A8D63 /* SceneDelegate.m */,
-				933809C6249A1D29003A8D63 /* ViewController.h */,
-				933809C7249A1D29003A8D63 /* ViewController.m */,
+				93434AFE24A327C2007445C5 /* KKCache */,
+				93434AFF24A327D2007445C5 /* Controllers */,
+				93434AFD24A327BD007445C5 /* Appdelegate */,
 				933809C9249A1D29003A8D63 /* Main.storyboard */,
 				933809CC249A1D2C003A8D63 /* Assets.xcassets */,
 				933809CE249A1D2C003A8D63 /* LaunchScreen.storyboard */,
@@ -137,6 +158,69 @@
 			path = YYCache_CopyUITests;
 			sourceTree = "<group>";
 		};
+		93434AFD24A327BD007445C5 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				933809C0249A1D29003A8D63 /* AppDelegate.h */,
+				933809C1249A1D29003A8D63 /* AppDelegate.m */,
+				933809C3249A1D29003A8D63 /* SceneDelegate.h */,
+				933809C4249A1D29003A8D63 /* SceneDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		93434AFE24A327C2007445C5 /* KKCache */ = {
+			isa = PBXGroup;
+			children = (
+				93434B0024A3282C007445C5 /* KKCache.h */,
+				93434B0124A3282C007445C5 /* KKCache.m */,
+				93434B0324A32835007445C5 /* KKDiskCache.h */,
+				93434B0424A32835007445C5 /* KKDiskCache.m */,
+				93434B0624A32841007445C5 /* KKKVStorage.h */,
+				93434B0724A32841007445C5 /* KKKVStorage.m */,
+				93434B0924A32848007445C5 /* KKMemoryCache.h */,
+				93434B0A24A32848007445C5 /* KKMemoryCache.m */,
+				93434B0C24A32865007445C5 /* Support Files */,
+			);
+			path = KKCache;
+			sourceTree = "<group>";
+		};
+		93434AFF24A327D2007445C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				933809C6249A1D29003A8D63 /* ViewController.h */,
+				933809C7249A1D29003A8D63 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		93434B0C24A32865007445C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93434B1324A3290D007445C5 /* KKCache-dummy.m */,
+				93434B1424A3290D007445C5 /* KKCache-prefix.pch */,
+				93434B1224A3290D007445C5 /* KKCache.xcconfig */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CBDE9632F67B7AA4A81E647E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A69C185BC23BED86CF89F /* Pods-YYCache_Copy.debug.xcconfig */,
+				725E26704AF5D3FEBB7C985D /* Pods-YYCache_Copy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA007C8BFA753D007C32F8E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E99442141F5E1FCEF8851006 /* libPods-YYCache_Copy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 933809EC249A1D2C003A8D63 /* Build configuration list for PBXNativeTarget "YYCache_Copy" */;
 			buildPhases = (
+				BD66ABAC9E32BC4A2D45430D /* [CP] Check Pods Manifest.lock */,
 				933809B9249A1D29003A8D63 /* Sources */,
 				933809BA249A1D29003A8D63 /* Frameworks */,
 				933809BB249A1D29003A8D63 /* Resources */,
@@ -241,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				933809D0249A1D2C003A8D63 /* LaunchScreen.storyboard in Resources */,
+				93434B1524A3290D007445C5 /* KKCache.xcconfig in Resources */,
 				933809CD249A1D2C003A8D63 /* Assets.xcassets in Resources */,
 				933809CB249A1D29003A8D63 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +348,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD66ABAC9E32BC4A2D45430D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYCache_Copy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		933809B9249A1D29003A8D63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,8 +380,13 @@
 			files = (
 				933809C8249A1D29003A8D63 /* ViewController.m in Sources */,
 				933809C2249A1D29003A8D63 /* AppDelegate.m in Sources */,
+				93434B0824A32841007445C5 /* KKKVStorage.m in Sources */,
 				933809D3249A1D2C003A8D63 /* main.m in Sources */,
 				933809C5249A1D29003A8D63 /* SceneDelegate.m in Sources */,
+				93434B0B24A32848007445C5 /* KKMemoryCache.m in Sources */,
+				93434B0224A3282C007445C5 /* KKCache.m in Sources */,
+				93434B1624A3290D007445C5 /* KKCache-dummy.m in Sources */,
+				93434B0524A32835007445C5 /* KKDiskCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +553,7 @@
 		};
 		933809ED249A1D2C003A8D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1A69C185BC23BED86CF89F /* Pods-YYCache_Copy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +571,7 @@
 		};
 		933809EE249A1D2C003A8D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725E26704AF5D3FEBB7C985D /* Pods-YYCache_Copy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
