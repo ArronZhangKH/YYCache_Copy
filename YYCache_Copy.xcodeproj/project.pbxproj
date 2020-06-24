@@ -21,8 +21,7 @@
 		93434B0524A32835007445C5 /* KKDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0424A32835007445C5 /* KKDiskCache.m */; };
 		93434B0824A32841007445C5 /* KKKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0724A32841007445C5 /* KKKVStorage.m */; };
 		93434B0B24A32848007445C5 /* KKMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B0A24A32848007445C5 /* KKMemoryCache.m */; };
-		93434B1524A3290D007445C5 /* KKCache.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93434B1224A3290D007445C5 /* KKCache.xcconfig */; };
-		93434B1624A3290D007445C5 /* KKCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93434B1324A3290D007445C5 /* KKCache-dummy.m */; };
+		93CF6A4224A3360200E84A0D /* KKLinkedMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CF6A4124A3360200E84A0D /* KKLinkedMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +69,8 @@
 		93434B0724A32841007445C5 /* KKKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKKVStorage.m; sourceTree = "<group>"; };
 		93434B0924A32848007445C5 /* KKMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKMemoryCache.h; sourceTree = "<group>"; };
 		93434B0A24A32848007445C5 /* KKMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKMemoryCache.m; sourceTree = "<group>"; };
-		93434B1224A3290D007445C5 /* KKCache.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = KKCache.xcconfig; sourceTree = "<group>"; };
-		93434B1324A3290D007445C5 /* KKCache-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KKCache-dummy.m"; sourceTree = "<group>"; };
-		93434B1424A3290D007445C5 /* KKCache-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKCache-prefix.pch"; sourceTree = "<group>"; };
+		93CF6A4024A3360200E84A0D /* KKLinkedMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKLinkedMap.h; sourceTree = "<group>"; };
+		93CF6A4124A3360200E84A0D /* KKLinkedMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLinkedMap.m; sourceTree = "<group>"; };
 		9A1A69C185BC23BED86CF89F /* Pods-YYCache_Copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCache_Copy.debug.xcconfig"; path = "Target Support Files/Pods-YYCache_Copy/Pods-YYCache_Copy.debug.xcconfig"; sourceTree = "<group>"; };
 		E99442141F5E1FCEF8851006 /* libPods-YYCache_Copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYCache_Copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -180,7 +178,8 @@
 				93434B0724A32841007445C5 /* KKKVStorage.m */,
 				93434B0924A32848007445C5 /* KKMemoryCache.h */,
 				93434B0A24A32848007445C5 /* KKMemoryCache.m */,
-				93434B0C24A32865007445C5 /* Support Files */,
+				93CF6A4024A3360200E84A0D /* KKLinkedMap.h */,
+				93CF6A4124A3360200E84A0D /* KKLinkedMap.m */,
 			);
 			path = KKCache;
 			sourceTree = "<group>";
@@ -192,16 +191,6 @@
 				933809C7249A1D29003A8D63 /* ViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		93434B0C24A32865007445C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				93434B1324A3290D007445C5 /* KKCache-dummy.m */,
-				93434B1424A3290D007445C5 /* KKCache-prefix.pch */,
-				93434B1224A3290D007445C5 /* KKCache.xcconfig */,
-			);
-			path = "Support Files";
 			sourceTree = "<group>";
 		};
 		CBDE9632F67B7AA4A81E647E /* Pods */ = {
@@ -326,7 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				933809D0249A1D2C003A8D63 /* LaunchScreen.storyboard in Resources */,
-				93434B1524A3290D007445C5 /* KKCache.xcconfig in Resources */,
 				933809CD249A1D2C003A8D63 /* Assets.xcassets in Resources */,
 				933809CB249A1D29003A8D63 /* Main.storyboard in Resources */,
 			);
@@ -381,11 +369,11 @@
 				933809C8249A1D29003A8D63 /* ViewController.m in Sources */,
 				933809C2249A1D29003A8D63 /* AppDelegate.m in Sources */,
 				93434B0824A32841007445C5 /* KKKVStorage.m in Sources */,
+				93CF6A4224A3360200E84A0D /* KKLinkedMap.m in Sources */,
 				933809D3249A1D2C003A8D63 /* main.m in Sources */,
 				933809C5249A1D29003A8D63 /* SceneDelegate.m in Sources */,
 				93434B0B24A32848007445C5 /* KKMemoryCache.m in Sources */,
 				93434B0224A3282C007445C5 /* KKCache.m in Sources */,
-				93434B1624A3290D007445C5 /* KKCache-dummy.m in Sources */,
 				93434B0524A32835007445C5 /* KKDiskCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -543,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
